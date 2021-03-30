@@ -1,0 +1,62 @@
+:root{
+    --color--box:#6F965B;
+    --color--title:#D15A00;
+    --color--label:#262215;
+    --color--button:#B34821;
+    --color--button--hover:#b36346;
+}
+
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/013/167/998/original/filipe-dilly-swordfishii-dogfight.gif?1538396841);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    background: var(--color--box);
+    padding:60px;
+    padding-top: 2px;
+    border: 10px solid #000;
+}
+
+.title{
+    font-size: 3rem;
+    color: var(--color--title);
+    text-shadow: 5px 5px 0 var(--color--label);
+}
+.box label{
+    font-size: 2rem;
+    display: flex;
+    color: var(--color--label);
+}
+input{
+    width: 100%;
+    font-size: 20px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    margin-left: 5px;
+    text-align-last: center;
+}
+button{
+    background-color: var(--color--button);
+    color: white;
+    padding: 20px;
+    border: 5px solid black;
+    cursor: pointer;
+    font-size: 20px;
+}
+button:hover{
+    background-color:var(--color--button--hover);
+}
